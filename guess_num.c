@@ -4,9 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "narek.h"
 
-int randnum();
-//for random number run randnum() in file generator_nums.c
 void guess_num(void)
 {
 	int i;
