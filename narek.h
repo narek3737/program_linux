@@ -30,5 +30,18 @@ int strleng(char strin[])
         return len;
 }
 
+int strleng_int(int strin[])
+{
+          int len;
+          len = 0;
+          while(strin[len] !='\0')
+          {
+                  ++len;
+          }
+  
+          return len;
+}
+
+
 
 #endif
