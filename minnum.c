@@ -1,4 +1,5 @@
 //
+//Created by Narek
 //minimal number in array
 //but whole numbers must be positive
 //
@@ -11,7 +12,7 @@ int strleng(int str[])
         len = 0;
         while(str[len] !='\0')
         {
-                ++len;
+                len++;
         }
 
         return len;
